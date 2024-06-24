@@ -11,7 +11,7 @@ export default function Favorites() {
   const [loading, setLoading] = useState(false);
   const fetchRecomend = () =>{
     setLoading(true);
-    fetch(`http://95.140.147.242:4000/api/suggestions?inputs=${(JSON.stringify({genre, mood, timeOfDay, activity}))}`).then((res)=> res.json()).then((data)=>{
+    fetch(`https://24diplom.ru/api/suggestions?inputs=${(JSON.stringify({genre, mood, timeOfDay, activity}))}`).then((res)=> res.json()).then((data)=>{
       setRecomendetion(data.aiResponse);
       console.log(data);
       setLoading(false);
