@@ -1,3 +1,18 @@
-<svg width="24" height="24">
-  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08s5.97 1.09 6 3.08c-1.29 1.94-3.5 3.22-6 3.22z" />
-</svg>
+# MusicPlayer
+Music listening apps with Spotify integration. The Axios library was used to access the api. The entire application is writen in react
+## Launch app
+Write to console
+```
+npm i
+npm run dev
+```
+## Preview
+![](https://guleb23-myporfel-3c02.twc1.net/assets/spotifyTwo-PIKfzzPM.png)
+____
+![](https://guleb23-myporfel-3c02.twc1.net/assets/main-D-7wdTe7.png)
+____
+![](https://guleb23-myporfel-3c02.twc1.net/assets/spotifyOne-CX6UCdkt.png)
+____
+## Technologies
+<img src="https://www.svgrepo.com/show/349419/javascript.svg" alt="drawing" width="50" height='50'/>  <img src="https://www.svgrepo.com/show/452092/react.svg" alt="drawing" width="50" height='50'/>
+
